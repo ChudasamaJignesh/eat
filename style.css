@@ -48,7 +48,7 @@ body {
 
 #screen {
   border: 1px solid #000;
-  cursor: move;    
+  cursor: default;    
 }
 
 #screen.h480 {
