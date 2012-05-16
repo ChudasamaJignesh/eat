@@ -254,7 +254,6 @@ function cGame(debug) {
       } else {
         self.key = ev.keyCode;
       }
-      console.log(self.key);
       self.keydown = true;      
     }
   }
