@@ -249,11 +249,7 @@ function cGame(debug) {
   document.onkeypress = function(e) {
     if( self.keydown === false ) {
       var ev = window.event || e;
-      if( !self.IE ) {
-        self.key = ev.charCode;
-      } else {
-        self.key = ev.keyCode;
-      }
+      self.key = ev.keyCode;
       self.keydown = true;      
     }
   }
