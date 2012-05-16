@@ -59,7 +59,7 @@ function cGame(debug) {
     }
   } 
   // Safari
-  else if( navigator.vendor.search(/Apple/i) !== -1 ) {
+  else if( typeof navigator.vendor !== 'undefined' && navigator.vendor.search(/Apple/i) !== -1 ) {
     this.browser.name = 'Safari';
   }
   // All other browsers
