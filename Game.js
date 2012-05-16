@@ -134,7 +134,7 @@ function cGame(debug) {
   // Credits panel
   this.creditsPanel = document.createElement('div');
   this.creditsPanel.setAttribute('id', 'creditsPanel');
-  this.creditsPanel.innerHTML = '<a href="credits.htm">Credits</a>';
+  this.creditsPanel.innerHTML = '- <a href="credits.htm">Credits</a> - <a href="http://code.google.com/p/eat/" target="_blank">Project Page</a> -';
     
   // Game objects
   this.planc = new Plancton(this.ctx, this.screen, this);
