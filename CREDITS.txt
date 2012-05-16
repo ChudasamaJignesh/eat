@@ -1,0 +1,36 @@
+E.A.T. - Credits
+=================
+
+
+Idea, Concept, Code:
+--------------------
+
+	Martin Albrecht <martin.albrecht@javacoffee.de>
+
+
+
+Graphics:
+---------
+
+Background image:
+	http://www.flickr.com/photos/thomasbrenner/3777565595/sizes/l/in/photostream/
+
+Enemy:
+	Martin Albrecht <martin.albrecht@javacoffee.de>
+
+
+Music:
+------
+All music found on: http://www.jamendo.com/de
+
+Artists:
+	http://www.jamendo.com/de/artist/338779/ton
+	http://www.jamendo.com/de/artist/Alpha_Hydrae
+	http://www.jamendo.com/de/artist/361044/oursvince
+	http://www.jamendo.com/de/artist/339529/guitarreando
+	
+
+Sounds:
+-------
+	http://www.grsites.com/
+	

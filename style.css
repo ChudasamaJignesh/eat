@@ -1,0 +1,114 @@
+/*
+ * E.A.T. - Stylesheet
+ * 
+ * Here, we find the basic game class and main function. The initializes itself
+ * through the main function. 
+ * 
+ * @author Martin Albrecht <martin.albrecht@javacoffee.de>
+ * @version: 0.0.2 alpha
+ * 
+ * LICENSE:
+ * --------
+ * This program is free software; you can redistribute it and/or modify it 
+ * under the terms of the GNU General Public License as published by the 
+ * Free Software Foundation; either version 2 of the License, or (at your 
+ * option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but 
+ * WITHOUT ANY WARRANTY; without even the implied warranty of 
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General 
+ * Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along 
+ * with this program; if not, write to the
+ * 
+ * Free Software Foundation, Inc.,
+ * 59 Temple Place, Suite 330,
+ * Boston, MA 02111-1307, USA.
+ */
+
+
+body {
+  background: #000;
+  color: #ccc;
+}
+
+#loading {
+  margin: 25% auto;
+  width: 128px;
+  height: 26px;
+  background: url('gfx/loading.gif') black;
+}
+
+#main {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#screen {
+  border: 1px solid #000;
+  cursor: move;    
+}
+
+#screen.h480 {
+  background: url('gfx/bg600.jpg') black;
+}
+
+#screen.h600 {
+  background: url('gfx/bg800.jpg') black;
+}
+
+#screen.h768 {
+  background: url('gfx/bg1024.jpg') black;
+}
+
+.h480 {
+  width: 640px;
+  height: 480px;
+}
+
+.h600 {
+  width: 800px;
+  height: 600px;
+}
+
+.h768 {
+  width: 1024px;
+  height: 768px;
+}
+
+/* Icons */
+#iconSpeaker {
+  position: absolute;
+  display: none;
+  top: 10px;
+  right: 10px;
+  background: url('gfx/speaker.gif');
+  width: 30px;
+  height: 30px;
+  z-index: 200;
+}
+
+
+/* Dialogs */
+.dialog {
+  position: absolute;
+  font-family: Tahoma, Arial, Sans-Serif;
+  font-size: 12px;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background: #fff;
+  color: #333;
+}
+
+.dialog ul {
+  list-style-type: none;
+}
+
+#dlgInstrcut {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
