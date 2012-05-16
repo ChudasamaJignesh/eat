@@ -78,6 +78,18 @@ body {
   height: 768px;
 }
 
+/* Credits panel */
+#creditsPanel {
+  width: 100%; text-align: center;
+}
+
+#creditsPanel a {
+  font-family: Arial, Sans-Serif;
+  font-size: 11px;
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Icons */
 #iconSpeaker {
   position: absolute;

@@ -130,10 +130,11 @@ function cGame(debug) {
   this.screen.setAttribute('width', scrWidth);
   this.screen.setAttribute('height', scrHeight);
   this.ctx = this.screen.getContext('2d') ;    
-    
-  // Debug Panel
-  this.dbgPanel = document.createElement('p');
-  this.dbgPanel.setAttribute('id', 'panel');
+  
+  // Credits panel
+  this.creditsPanel = document.createElement('div');
+  this.creditsPanel.setAttribute('id', 'creditsPanel');
+  this.creditsPanel.innerHTML = '<a href="credits.htm">Credits</a>';
     
   // Game objects
   this.planc = new Plancton(this.ctx, this.screen, this);
@@ -259,10 +260,10 @@ function cGame(debug) {
     
   // Append all game nodes to main node
   this.main.appendChild(this.screen);
-  this.main.appendChild(this.dbgPanel);
   this.main.appendChild(this.sndEat);
   this.main.appendChild(this.musicPlayer);
   this.main.appendChild(this.iconSpeaker);
+  this.main.appendChild(this.creditsPanel);
     
   // Loading is done, we can now destroy the loading node 
   // and display all other game nodes        
