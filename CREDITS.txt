@@ -8,7 +8,6 @@ Idea, Concept, Code:
 	Martin Albrecht <martin.albrecht@javacoffee.de>
 
 
-
 Graphics:
 ---------
 
@@ -17,6 +16,9 @@ Background image:
 
 Enemy:
 	Martin Albrecht <martin.albrecht@javacoffee.de>
+
+Loading icon:
+	http://preloaders.net/
 
 
 Music:
